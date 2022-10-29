@@ -1,6 +1,8 @@
 require('dotenv').config();
 const pkg = require('./package.json');
 
+// test build
+
 const contentSecurityPolicy = `
   default-src 'self';
   img-src *;
